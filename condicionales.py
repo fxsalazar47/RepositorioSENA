@@ -95,4 +95,31 @@
 
 # 8 ----
 
-tp = (float(input(f"Ingrese el precio de producto: ")) , input(f"Eres cliente VIP? (Si/No): "))
+# tp = (float(input(f"Ingrese el precio de producto: ")) , input(f"Eres cliente VIP? (Si/No): "))
+
+# tp20 = tp[0] - (tp[0] * 0.2)
+
+# if tp[1] == "Si":
+#     print(f"El precio total con el descuento VIP del 20% es {tp20}")
+# else:
+#     print (f"El precio total sin el descuento VIP es de {tp[0]}")
+
+# 9 ----
+
+# num = float(input(f"Ingresa un numero: "))
+
+# if num % 3 == 0 and num % 5 == 0:
+#     print(f"El numero {num} es multiplo de 3 y 5")
+# else:
+#     print(f"El numero {num} no es múltiplo de 3 y 5")
+
+# 10 ----
+
+num1 = float(input(f"Ingresa un numero: "))
+num2 = float(input(f"Ingresa un numero para dividirlo: "))
+num3 = float(input(f"Ingresa otro numero para dividirlo: "))
+
+if num1 % num2 == 0 and num1 %num3 == 0:
+    print(f"{num1} es divisible entre {num2} y {num3}")
+else:
+    print(f"{num1} no es divisible entre {num2} y num{3}")
